@@ -19,7 +19,7 @@ export function stripDevIcons (isDev: boolean) {
   }
 }
 
-// plugin to support i18n 
+// plugin to support i18n
 export function crxI18n (options: { localize: boolean, src: string }): PluginOption {
   if (!options.localize) return null
 
